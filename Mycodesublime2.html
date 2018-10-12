@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<body>
+
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="#home" class="w3-button w3-bar-item">Home</a>
+  <a href="#Organisation" class="w3-button w3-bar-item">Organisation</a>
+  <a href="#tour" class="w3-button w3-bar-item">Tour</a>
+  <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="wp1.jpg"
+  style="width:100%">
+  <img class="mySlides" src="Hirakud-dam-reservoir-640x414.jpg"
+  style="width:100%">
+  <img class="mySlides" src="agri_majorareas_disastermgt_flood_clip_image001.jpg"
+  style="width:100%">
+</section>
+
+<!-- Band Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">MONSOON FORECASTING</h2>
+  <p class="w3-opacity"><i>Regulate flood</i></p>
+  <p class="w3-justify">I am designinga a ML model using ML tool of Microsoft Azure for supervised learnig and classification statistics, for predictinve analysis of rainfall due to monsoon in India in advance. Best way to predict the monsoon in advance accurately is to check the various parameter like wind movements in ocean etc, with relating it to the results and effects happens in past years. Feeding the monsoon result and parameter of each days of last couple of years as raw data for supervised study and feed present parameter data of corresponding day, then using classification ML technique I can predict the monsoon and rainfall to occur as result in advance accurately. This wiil help us greately how much water we should release form reservior in order to create required space so that it does'nt overflow during monsoon. At the same time getting propere water release notificaton in summer can abolish drought like problems. To publish my results i will create a real time functional website as i am skilled in it using HTML, python, javascript, flask, django and deploy it to Microsoft Azure.</p>
+</section>
+
+<!-- Band Members -->
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <p>PYTHON</p>
+    <img src="wp1.jpg" alt="Random Name" style="width:100%">
+    <p>Consulting reservior for water release paln at real time.</p>
+  </article>
+  <article class="w3-third">
+    <p>PYTHON</p>
+    <img src="Hirakud-dam-reservoir-640x414.jpg" alt="Random Name" style="width:100%">
+    <p>Monsoon Predictive Analysis.</p>
+  </article>
+  <article class="w3-third">
+    <p>PYTHON</p>
+    <img src="agri_majorareas_disastermgt_flood_clip_image001.jpg" alt="Random Name" style="width:100%">
+    <p>Flood effects on common people lives.</p>
+  </article>
+</section>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
