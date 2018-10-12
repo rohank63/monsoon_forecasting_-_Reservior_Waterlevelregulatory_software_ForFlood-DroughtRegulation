@@ -12,7 +12,7 @@ I am ideating a solution to problems flood and drought of Monsoon dependent stat
 **My solution**_
 * I am designing a Machine Learning model using ML tool of Microsoft Azure for supervised learnig and classification statistics, for predictive analysis of rainfall due to monsoon in India in advance.
 * Best way to predict the monsoon in advance accurately is to check the various parameter like wind movements in ocean etc, with relating it to the results and effects happens in past years. Feeding the monsoon result and parameter of each days of last couple of years as raw data for supervised study, and feed present parameter data of corresponding day, then using classification ML technique I can predict the monsoon and rainfall to occur as result in advance accurately. This wiil help us greately how much water we should release form reservior in order to create required space so that it does'nt overflow during monsoon and result to flood.
-* At the same time predicting the accurate result we can consult Hydrology board and Agricultural board of state to tackel problem like drought. To publish my results i will create a real time functional website as i am skilled in it using HTML, python, javascript, flask, django and deploy it to Microsoft Azure.
+* At the same time predicting the accurate result we can consult Hydrology board and Agricultural board of state to tackel problem like drought. To publish my results i will create a real time functional webApp as i am skilled in it using HTML, python, javascript, flask, django and deploy it to Microsoft Azure.
 
 **Exatra features** Prediction and prevention connsultancy to Public and Government.
 
